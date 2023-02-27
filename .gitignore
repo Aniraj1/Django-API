@@ -1,0 +1,27 @@
+# Django gitIgnore
+
+# Django #
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+
+
+.env
+.venv
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local development settings
+settings_local.py
+*.sqlite3
+
+# Static files
+/static/
+/media/
